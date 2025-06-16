@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="660.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.Menu.Menu_Controller">
+   <children>
+      <ImageView fitHeight="660.0" fitWidth="990.0" pickOnBounds="true">
+         <image>
+            <Image url="@Menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="missionControl" fitHeight="660.0" fitWidth="990.0" onMouseClicked="#missionControl" preserveRatio="true" styleClass="image-hover-effect">
+         <image>
+            <Image url="@MissionControl.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="luckyZone" fitHeight="660.0" fitWidth="990.0" onMouseClicked="#luckyZone" preserveRatio="true" styleClass="image-hover-effect">
+         <image>
+            <Image url="@LuckZone.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="bank" fitHeight="660.0" fitWidth="990.0" onMouseClicked="#bank" preserveRatio="true" styleClass="image-hover-effect">
+         <image>
+            <Image url="@Bank.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="tradeFloor" fitHeight="660.0" fitWidth="990.0" onMouseClicked="#tradeFloor" preserveRatio="true">
+         <image>
+            <Image url="@TradeFloor.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="store" fitHeight="660.0" fitWidth="990.0" onMouseClicked="#store" preserveRatio="true" styleClass="image-hover-effect">
+         <image>
+            <Image url="@Store.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
